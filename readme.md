@@ -6,3 +6,6 @@ The skeleton of a Jekyll site. Intended to include the latest versions of:
 Visit the respective repos for the latest versions of their magic.
 
 Additionally, it assumes you pre-compile CSS w/ SASS & JavaScript w/ CoffeeScript.
+
+To Do:
+- Add Typekit
