@@ -1,0 +1,48 @@
+/* mixins, variables, etc. */
+
+@mixin vertical-gradient($top, $bottom) {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($top), to($bottom));
+  background: -webkit-linear-gradient(top, $top, $bottom); 
+  background:    -moz-linear-gradient(top, $top, $bottom);     
+  background:      -o-linear-gradient(top, $top, $bottom);
+}
+
+/* universal */
+
+body {
+}
+
+/* typography */
+
+body {
+}
+
+
+h1 {
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+/* header */
+
+header {
+  h1#site-name { 
+  }
+  ul.nav {
+    margin: 0; /* overwrite Bootstrap default */
+    a {
+      &:hover {
+      }
+    }
+  }
+}
+
+
+/* content */
+
+div#content {
+  h2#page-title {
+  }
+}
+
+/* footer */

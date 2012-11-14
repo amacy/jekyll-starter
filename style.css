@@ -1,0 +1,13 @@
+/* mixins, variables, etc. */
+/* universal */
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* header */
+header ul.nav {
+  margin: 0;
+  /* overwrite Bootstrap default */ }
+
+/* content */
+/* footer */
