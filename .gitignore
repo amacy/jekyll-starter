@@ -1,0 +1,17 @@
+# Files that do nothing:
+*.DS_Store
+*.swp
+
+# Files that shouldn't be tracked:
+_site/
+css/.sass-cache/
+
+
+# Files that will need to be updated in the future:
+css/bootstrap-responsive.min.css
+css/bootstrap.min.css
+images/glyphicons-halflings-white.png
+images/glyphicons-halflings.png
+javascripts/bootstrap.min.js
+javascripts/modernizr.js
+javascripts/respond.min.js

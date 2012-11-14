@@ -1,0 +1,61 @@
+/* mixins, variables, etc. */
+/* universal */
+body {
+  background-color: #d7dcc3; }
+
+/* typography */
+body {
+  font-family: 'gill sans', serif;
+  font-size: 1em; }
+
+h1 {
+  font-family: 'minion pro', serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* header */
+header#navigation {
+  background-color: #1c2e1b; }
+  header#navigation ul.nav {
+    margin: 0;
+    /* overwrite Bootstrap default */ }
+    header#navigation ul.nav a {
+      color: #d7dcc3;
+      border-left: 1px black solid;
+      padding: .6em 1em .7em 1em;
+      text-decoration: underline;
+      font-family: arial, helvetica, sans-serif;
+      font-size: .9em; }
+      header#navigation ul.nav a:hover {
+        background-color: #d7dcc3;
+        color: #1c2e1b; }
+
+header#title h1#site-name {
+  font-size: 2.5em;
+  color: #1c2e1b;
+  margin: 20px 0 10px 0; }
+header#title h3#subtitle {
+  margin: 0;
+  line-height: .7em; }
+  header#title h3#subtitle small {
+    color: #1c2e1b;
+    font-style: italic;
+    font-size: .7em; }
+
+/* content */
+div#content h2#page-title {
+  font-size: 1.5em; }
+div#content ul {
+  background-color: #6d889f;
+  color: white;
+  padding: 1.5em;
+  width: 25%;
+  list-style-position: inside;
+  border-radius: 5px;
+  float: right; }
+  div#content ul li {
+    line-height: 1.25em;
+    margin: 0 0 .5em 0; }
+
+/* footer */

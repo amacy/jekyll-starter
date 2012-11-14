@@ -1,0 +1,95 @@
+/* mixins, variables, etc. */
+
+$forestGreen: rgb(28, 46, 27);
+$blue: rgb(109, 136, 159);
+$darkOlive: #566b30;
+$lightOlive: #c3c77d;
+$lightGreen: #d7dcc3;
+
+@mixin vertical-gradient($top, $bottom) {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($top), to($bottom));
+  background: -webkit-linear-gradient(top, $top, $bottom); 
+  background:    -moz-linear-gradient(top, $top, $bottom);     
+  background:      -o-linear-gradient(top, $top, $bottom);
+}
+
+/* universal */
+
+body {
+  background-color: $lightGreen;
+}
+
+/* typography */
+
+body {
+  font-family: 'gill sans', serif;
+  font-size: 1em;
+}
+
+
+h1 {
+  font-family: 'minion pro', serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+/* header */
+
+header#navigation {
+  background-color: $forestGreen;
+  ul.nav {
+    margin: 0; /* overwrite Bootstrap default */
+    a {
+      color: $lightGreen;
+      border-left: 1px black solid;
+      padding: .6em 1em .7em 1em;
+      text-decoration: underline;
+      font-family: arial, helvetica, sans-serif;
+      font-size: .9em;
+      &:hover {
+        background-color: $lightGreen;
+        color: $forestGreen;
+      }
+    }
+  }
+}
+
+header#title {
+  h1#site-name { 
+    font-size: 2.5em; 
+    color: $forestGreen;
+    margin: 20px 0 10px 0;
+  }
+  h3#subtitle {
+    margin: 0;
+    line-height: .7em;
+    small {
+      color: $forestGreen;
+      font-style: italic;
+      font-size: .7em;
+    }
+  }
+}
+
+/* content */
+
+div#content {
+  h2#page-title {
+    font-size: 1.5em;
+  }
+  ul {
+    background-color: $blue;
+    color: white;
+    padding: 1.5em;
+    width: 25%;
+    list-style-position: inside;
+    border-radius: 5px;
+    float: right;
+    li {
+      line-height: 1.25em;
+      margin: 0 0 .5em 0;
+    }
+  }
+}
+
+/* footer */
