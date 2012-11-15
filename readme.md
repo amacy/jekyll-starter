@@ -14,4 +14,3 @@ Additionally, it assumes you pre-compile CSS w/ SASS & JavaScript w/ CoffeeScrip
 
 To Do:
 ------
-- Add Typekit
