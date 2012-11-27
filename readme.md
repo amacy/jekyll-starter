@@ -6,7 +6,7 @@ This is the skeleton - folders and "essential" files - for a Jekyll site.
 I also intend to include the latest versions of:
 
 - Twitter Bootstrap (for responsive design/CSS/jQuery magic)
-- respond.js & Modernizr (for cross-browser compatibility)
+- Modernizr (for cross-browser compatibility)
 
 Visit the respective repos for the latest versions of their magic.
 
