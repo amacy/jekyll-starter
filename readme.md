@@ -1,16 +1,6 @@
 About
 =====
 
-This is the skeleton - folders and "essential" files - for a Jekyll site. 
-
-I also intend to include the latest versions of:
-
-- Twitter Bootstrap (for responsive design/CSS/jQuery magic)
-- Modernizr (for cross-browser compatibility)
-
-Visit the respective repos for the latest versions of their magic.
+This is the skeleton - folders and "essential" files - for a Jekyll site. Bootstrap files are linked but not included.
 
 Additionally, it assumes you pre-compile CSS w/ SASS & JavaScript w/ CoffeeScript.
-
-To Do:
-------
